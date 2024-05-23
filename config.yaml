@@ -1,0 +1,14 @@
+Cora:
+  learning_rate: 0.0005
+  num_hidden: 128
+  num_proj_hidden: 128
+  activation: 'relu'
+  base_model: 'GCNConv'
+  num_layers: 2
+  drop_edge_rate_1: 0.4
+  drop_edge_rate_2: 0.5
+  drop_feature_rate_1: 0.2
+  drop_feature_rate_2: 0.4
+  tau: 0.4
+  num_epochs: 200
+  weight_decay: 0.00001
